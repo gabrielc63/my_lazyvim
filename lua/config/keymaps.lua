@@ -14,3 +14,7 @@ keymap.set("v", "L", "$")
 
 -- Ident after paste
 vim.api.nvim_set_keymap("n", "p", "p`[v`]=", { noremap = true })
+
+-- Tabs
+keymap.set("n", "to", ":tabedit .<Return>")
+keymap.set("n", "tc", ":tabclose <Return>")
