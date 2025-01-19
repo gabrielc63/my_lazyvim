@@ -8,14 +8,9 @@ return {
   -- Lazy
   {
     "olimorris/onedarkpro.nvim",
-    priority = 1000, -- Ensure it loads first
   },
   { "AlessandroYorba/Alduin" },
   { "ellisonleao/gruvbox.nvim" },
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-  },
   { "calind/selenized.nvim" },
   {
     "craftzdog/solarized-osaka.nvim",
