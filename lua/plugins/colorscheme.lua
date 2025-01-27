@@ -12,10 +12,16 @@ return {
   { "AlessandroYorba/Alduin" },
   { "ellisonleao/gruvbox.nvim" },
   { "calind/selenized.nvim" },
+  { "shaunsingh/nord.nvim" },
+  { "rmehri01/onenord.nvim" },
   {
     "craftzdog/solarized-osaka.nvim",
     lazy = false,
-    opts = {},
+    opts = function()
+      return {
+        transparent = true,
+      }
+    end,
   },
   {
     "AlexvZyl/nordic.nvim",
