@@ -5,7 +5,7 @@ return {
     config = true,
   },
   {
-    "echasnovski/mini.surround",
+    "nvim-mini/mini.surround",
     recommended = true,
     opts = {
       mappings = {
